@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Login System</title>
+    <link rel="icon" href="">
+    <meta name="keywords" content="book">
+    <meta name="description" content="Book MARKER">
+    <meta name="author" content="ola emad">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="container-fluid g-0 mm">
+        <div class="login mt-5" id="login">
+            <h1 class="text-center pt-5 pb-3 ">Smart Login System</h1>
+            <div class="text-center " id="formOne">
+                <input id="enterEmail1" type="text" placeholder="Enter your email" class="form-control form-control-md  mx-auto mb-3">
+                <input id="enterPass1" type="password" placeholder="Enter your password" class="form-control form-control-md  mx-auto mb-4">
+                <p class="text-danger d-none" id="pf">email or password are incorrect</p>
+                <button id="btnLogin" class="btn btn-outline-info mh mb-3">Login</button>
+                <p class="pb-5 text-light">Don’t have an account?
+                    <a href="#" id="SignUp" class=" text-white ">Sign Up</a>
+                </p>
+            </div>
+            <div class="text-center d-none " id="formTwo">
+                <input id="enterName" type="text" placeholder="Enter your name " class="form-control form-control-md mx-auto mb-3 ">
+                <input id="enterEmail2" type="text" placeholder="Enter your email" class="form-control form-control-md mx-auto mb-3">
+                <input id="enterPass2" type="password" placeholder="Enter your password" class="form-control form-control-md mx-auto mb-4">
+                <p class="text-success d-none" id="pf2">Success</p>
+                <button id="btnSub" class="btn btn-outline-info mh mb-3 ">Sign Up</button>
+                <p class="pb-5 text-light">Don’t have an account? <a href="# " id="SignIn" class="text-white">Signin</a></p>
+            </div>        
+        </div> 
+    </div>
+    <section class="lol d-none" id="formThree">
+        <div class="logout w-100">
+            <a href="#">SMART LOGIN</a>
+            <button class="btn btn-outline-warning text-light" id="logout">Logout</button>
+        </div>
+        <div class="login1 text-info h-25" id="head" >
+            
+        </div>  
+    </section>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/login.js "></script>
+</body>
+
+</html>
